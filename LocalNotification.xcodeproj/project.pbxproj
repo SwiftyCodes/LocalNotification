@@ -58,16 +58,32 @@
 		75FE1C59231D56C200B1FDFE /* LocalNotification */ = {
 			isa = PBXGroup;
 			children = (
-				75FE1C6E231D61EA00B1FDFE /* Spiderman.jpg */,
 				75FE1C5A231D56C200B1FDFE /* AppDelegate.swift */,
-				75FE1C5C231D56C200B1FDFE /* LocalNotificationVC.swift */,
-				75FE1C6C231D592300B1FDFE /* DetailVC.swift */,
-				75FE1C5E231D56C200B1FDFE /* Main.storyboard */,
+				75FE1C71231D688600B1FDFE /* Resourses */,
+				75FE1C70231D687600B1FDFE /* Controller */,
 				75FE1C61231D56C400B1FDFE /* Assets.xcassets */,
 				75FE1C63231D56C400B1FDFE /* LaunchScreen.storyboard */,
 				75FE1C66231D56C400B1FDFE /* Info.plist */,
 			);
 			path = LocalNotification;
+			sourceTree = "<group>";
+		};
+		75FE1C70231D687600B1FDFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75FE1C5C231D56C200B1FDFE /* LocalNotificationVC.swift */,
+				75FE1C6C231D592300B1FDFE /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75FE1C71231D688600B1FDFE /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				75FE1C6E231D61EA00B1FDFE /* Spiderman.jpg */,
+				75FE1C5E231D56C200B1FDFE /* Main.storyboard */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
