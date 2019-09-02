@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailVC.swift
 //  LocalNotification
 //
 //  Created by Anurag Kashyap on 02/09/19.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailVC: UIViewController {
+    
+    var nameDictKeyValue = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print(nameDictKeyValue)
     }
-
-
 }
-
